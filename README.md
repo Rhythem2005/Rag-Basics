@@ -82,21 +82,6 @@ sequenceDiagram
     App-->>User: Display response + Source Citations
 ```
 
----
-
-## 🗄️ Vector Database Comparison
-
-This repository is configured to demonstrate two popular vector database options:
-
-| Feature | 🗃️ ChromaDB | ⚡ FAISS |
-| :--- | :--- | :--- |
-| **Type** | Full Vector Database (Server / Serverless) | Vector Indexing Library |
-| **Storage** | SQLite-backed persistent directory | In-memory with file serialization (`.index`/`.faiss`) |
-| **Metadata Filtering**| Built-in native filtering (SQL-like dicts) | Requires external indexing or wrapper |
-| **Best Used For** | Prototyping, full RAG apps with metadata queries | High-performance similarity search on raw vectors |
-
----
-
 ## 📁 Repository Structure
 
 ```text
