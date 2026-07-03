@@ -135,4 +135,4 @@ python3 app.py
 ```
 
 > [!TIP]
-> Ensure you have placed some data files (e.g. PDFs, TXT files) inside the `Understanding/data/` folder before running the loader for the first time.
+> Ensure you have placed some data files (e.g. PDFs, TXT files, Json) inside the `Understanding/data/` folder before running the loader for the first time.
